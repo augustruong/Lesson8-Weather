@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding : 70px;
+    text-align: center;
+    background: linear-gradient(115.73deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 66.26%), linear-gradient(180deg, #C9F2FF 0%, #C9F2FF 100%);
+    height: 100vh;
+}
+
+input {
+    margin-bottom: 50px;
+    padding: 15px 15px 12px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: inset 0px 3px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+input::placeholder {
+    font-size: 16px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+.heading {
+    font-family: Mont;
+    font-size: 50px;
+    line-height: 82px;
+    margin : 0;
+}
+
+p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.location {
+    font-family: Mont;
+    font-weight: 800;
+    font-size: 28px;
+    margin: 0 0 10px 0;
+}
+
+.temp{
+    font-family: Mont;
+    font-size: 72px;
+    margin: 10px 10px 10px 0;
+}
+
+.celcius {
+    font-size: 20px;
+}
+
+.status {
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 22px;
+    margin: 0 0 5px 0;
+}
+
+.description {
+    color: #5A5A5A;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.result-wrapper {
+    background-color: white;
+    box-shadow: 5px 5px 8px rgb(0, 0, 0, 0.25);
+    width: 30%;
+    border-radius: 30px;
+    padding: 50px 75px;
+    display: inline-block;
+    text-align: center;
+}
+
+.weather-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left {
+    text-align: left;
+}
+
+.weather-icon {
+    margin: 40px 0 0 30px;
+}
+
+.err{
+    display: inline;
+    text-align: center;
+}
